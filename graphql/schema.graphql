@@ -5,6 +5,7 @@ type Movie {
   language: String
   medium_cover_image: String
   genres: [String]
+  description_full: String
 }
 
 type Query {
